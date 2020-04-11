@@ -5,7 +5,7 @@
   "name": "eTrade",
   "version": "1.0.0",
   "dependencies": {
-    "gulp": "~4.0.2",
+    "gulp": "~3.9.1",
     "laravel-elixir": "~6.0.0-18"
   }
 }
