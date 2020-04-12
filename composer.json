@@ -1,5 +1,6 @@
 {
     "require": {
-        "vlucas/phpdotenv": "^4.1"
+        "vlucas/phpdotenv": "^4.1",
+        "altorouter/altorouter": "^2.0"
     }
 }
