@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/bin/carbon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philo/laravel-blade/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philo/laravel-blade/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philo/laravel-blade/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/philo/laravel-blade/src/Blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eTrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eTrade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.reveal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_top-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_top-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/view/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +61,23 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/altorouter/altorouter" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/philo/laravel-blade" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aONFmildRNFT8Ane8Iavo3UlEX" />
@@ -75,7 +116,7 @@
       <workItem from="1586696704602" duration="1308000" />
       <workItem from="1586698112521" duration="9874000" />
       <workItem from="1587112027001" duration="13000" />
-      <workItem from="1587112053779" duration="6206000" />
+      <workItem from="1587112053779" duration="7510000" />
     </task>
     <servers />
   </component>

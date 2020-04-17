@@ -290,7 +290,7 @@ class Tooltip extends Positionable {
   }
 
   /**
-   * Destroys an instance of tooltip, removes template element from the view.
+   * Destroys an instance of tooltip, removes template element from the views.
    * @function
    */
   _destroy() {
@@ -313,14 +313,14 @@ Tooltip.defaults = {
    */
   hoverDelay: 200,
   /**
-   * Time, in ms, a tooltip should take to fade into view.
+   * Time, in ms, a tooltip should take to fade into views.
    * @option
    * @type {number}
    * @default 150
    */
   fadeInDuration: 150,
   /**
-   * Time, in ms, a tooltip should take to fade out of view.
+   * Time, in ms, a tooltip should take to fade out of views.
    * @option
    * @type {number}
    * @default 150
