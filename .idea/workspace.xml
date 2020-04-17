@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/eTrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eTrade.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1586696704602" duration="1308000" />
       <workItem from="1586698112521" duration="9874000" />
       <workItem from="1587112027001" duration="13000" />
-      <workItem from="1587112053779" duration="389000" />
+      <workItem from="1587112053779" duration="6206000" />
     </task>
     <servers />
   </component>
@@ -107,6 +103,10 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="65" y="178" width="800" height="712" key="#Plugins/0.27.1920.1014@0.27.1920.1014" timestamp="1587112094193" />
+    <state x="213" y="282" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587120403266">
+      <screen x="0" y="27" width="1920" height="1014" />
+    </state>
+    <state x="213" y="282" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587120403266" />
     <state x="208" y="450" width="523" height="168" key="ComposerInitDialogKey" timestamp="1586698270784">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
@@ -135,9 +135,9 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="321" y="340" width="601" height="373" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1586713105849" />
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1586713723479">
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1587120078204">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1586713723479" />
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587120078204" />
   </component>
 </project>
