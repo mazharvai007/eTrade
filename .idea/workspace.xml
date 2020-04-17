@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/view/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/eTrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eTrade.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +49,12 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,35 +77,44 @@
       <workItem from="1586602580717" duration="5772000" />
       <workItem from="1586617012244" duration="12075000" />
       <workItem from="1586696704602" duration="1308000" />
-      <workItem from="1586698112521" duration="5929000" />
+      <workItem from="1586698112521" duration="9874000" />
+      <workItem from="1587112027001" duration="13000" />
+      <workItem from="1587112053779" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="195" width="800" height="677" key="#Composer" timestamp="1586617095751">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="1035" y="195" width="800" height="677" key="#Composer/0.27.1920.1014@0.27.1920.1014" timestamp="1586617095751" />
+    <state x="65" y="178" width="800" height="712" key="#Plugins" timestamp="1587112094193">
+      <screen x="0" y="27" width="1920" height="1014" />
+    </state>
+    <state x="65" y="178" width="800" height="712" key="#Plugins/0.27.1920.1014@0.27.1920.1014" timestamp="1587112094193" />
     <state x="208" y="450" width="523" height="168" key="ComposerInitDialogKey" timestamp="1586698270784">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="208" y="450" width="523" height="168" key="ComposerInitDialogKey/0.27.1920.1014@0.27.1920.1014" timestamp="1586698270784" />
+    <state x="712" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586713046775">
+      <screen x="0" y="27" width="1920" height="1014" />
+    </state>
+    <state x="712" y="293" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1014@0.27.1920.1014" timestamp="1586713046775" />
     <state width="914" height="266" key="GridCell.Tab.0.bottom" timestamp="1586632333728">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
@@ -127,9 +131,13 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state width="914" height="266" key="GridCell.Tab.0.right/0.27.1920.1014@0.27.1920.1014" timestamp="1586632333728" />
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1586704493913">
+    <state x="321" y="340" width="601" height="373" key="NewPhpClassDialog" timestamp="1586713105849">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1586704493913" />
+    <state x="321" y="340" width="601" height="373" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1586713105849" />
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1586713723479">
+      <screen x="0" y="27" width="1920" height="1014" />
+    </state>
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1586713723479" />
   </component>
 </project>
