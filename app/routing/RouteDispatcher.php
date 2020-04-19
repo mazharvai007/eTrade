@@ -33,7 +33,7 @@ class RouteDispatcher
 
         } else {
             header($_SERVER['SERVER_PROTOCOL'] . '404 Not Found');
-            echo "Page not found";
+            view('errors/404');
         }
     }
 }
