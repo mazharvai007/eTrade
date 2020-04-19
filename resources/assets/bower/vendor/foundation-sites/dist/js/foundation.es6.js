@@ -8265,14 +8265,14 @@ Reveal.defaults = {
    */
   hOffset: 'auto',
   /**
-   * Allows the modal to be fullscreen, completely blocking out the rest of the view. JS checks for this as well.
+   * Allows the modal to be fullscreen, completely blocking out the rest of the views. JS checks for this as well.
    * @option
    * @type {boolean}
    * @default false
    */
   fullScreen: false,
   /**
-   * Allows the modal to generate an overlay div, which will cover the view when modal opens.
+   * Allows the modal to generate an overlay div, which will cover the views when modal opens.
    * @option
    * @type {boolean}
    * @default true
@@ -9199,7 +9199,7 @@ class Sticky extends Plugin {
     $(window).off(scrollListener);
 
     /**
-     * Fires when the plugin is paused due to resize event shrinking the view.
+     * Fires when the plugin is paused due to resize event shrinking the views.
      * @event Sticky#pause
      * @private
      */
@@ -9436,7 +9436,7 @@ Sticky.defaults = {
    */
   container: '<div data-sticky-container></div>',
   /**
-   * Location in the view the element sticks to. Can be `'top'` or `'bottom'`.
+   * Location in the views the element sticks to. Can be `'top'` or `'bottom'`.
    * @option
    * @type {string}
    * @default 'top'
@@ -10502,7 +10502,7 @@ class Tooltip extends Positionable {
   }
 
   /**
-   * Destroys an instance of tooltip, removes template element from the view.
+   * Destroys an instance of tooltip, removes template element from the views.
    * @function
    */
   _destroy() {
@@ -10525,14 +10525,14 @@ Tooltip.defaults = {
    */
   hoverDelay: 200,
   /**
-   * Time, in ms, a tooltip should take to fade into view.
+   * Time, in ms, a tooltip should take to fade into views.
    * @option
    * @type {number}
    * @default 150
    */
   fadeInDuration: 150,
   /**
-   * Time, in ms, a tooltip should take to fade out of view.
+   * Time, in ms, a tooltip should take to fade out of views.
    * @option
    * @type {number}
    * @default 150

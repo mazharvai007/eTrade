@@ -414,7 +414,7 @@ function (_Plugin) {
       this.isOn = false;
       jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).off(scrollListener);
       /**
-       * Fires when the plugin is paused due to resize event shrinking the view.
+       * Fires when the plugin is paused due to resize event shrinking the views.
        * @event Sticky#pause
        * @private
        */
@@ -679,7 +679,7 @@ Sticky.defaults = {
   container: '<div data-sticky-container></div>',
 
   /**
-   * Location in the view the element sticks to. Can be `'top'` or `'bottom'`.
+   * Location in the views the element sticks to. Can be `'top'` or `'bottom'`.
    * @option
    * @type {string}
    * @default 'top'
