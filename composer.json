@@ -7,9 +7,10 @@
     },
 
     "require": {
-        "vlucas/phpdotenv": "^4.1",
-        "altorouter/altorouter": "^2.0",
-        "philo/laravel-blade": "^3.1"
+        "vlucas/phpdotenv": "^4.1.4",
+        "altorouter/altorouter": "^1.2",
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "^5.4"
     },
     "config": {
         "optimize-autoloader": true
