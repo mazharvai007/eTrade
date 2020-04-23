@@ -9,5 +9,7 @@
 </head>
 <body>
 
+<?php echo $data; ?>
+
 </body>
 </html>
