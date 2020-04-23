@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/classes/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Concerns/BuildsQueries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/ConfigurationUrlParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Factories/FactoryMakeCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Factories/stubs/factory.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/FreshCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/TableGuesser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/HigherOrderBuilderProxy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/Concerns/AsPivot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/Concerns/SupportsDefaultModels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/HasOneThrough.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/MigrationEnded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/MigrationEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/MigrationStarted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/MigrationsEnded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/MigrationsStarted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/ColumnDefinition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/ForeignKeyDefinition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/SQLiteBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/SqlServerBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/classes/Mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/testEmail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/eTrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eTrade.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/altorouter/altorouter/AltoRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/altorouter/altorouter/AltoRouter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/altorouter/altorouter/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/altorouter/altorouter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/altorouter/altorouter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/altorouter/altorouter/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/altorouter/altorouter/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/altorouter/altorouter/phpcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
@@ -89,6 +63,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aONFmildRNFT8Ane8Iavo3UlEX" />
@@ -138,7 +113,8 @@
       <workItem from="1587308212898" duration="3116000" />
       <workItem from="1587492228404" duration="59000" />
       <workItem from="1587494325987" duration="1285000" />
-      <workItem from="1587496088658" duration="3363000" />
+      <workItem from="1587496088658" duration="3913000" />
+      <workItem from="1587651810685" duration="2354000" />
     </task>
     <servers />
   </component>
@@ -194,10 +170,10 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state width="914" height="266" key="GridCell.Tab.0.right/0.27.1920.1014@0.27.1920.1014" timestamp="1586632333728" />
-    <state x="321" y="340" width="601" height="505" key="NewPhpClassDialog" timestamp="1587497833359">
+    <state x="321" y="340" width="601" height="505" key="NewPhpClassDialog" timestamp="1587661282470">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="321" y="340" width="601" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587497833359" />
+    <state x="321" y="340" width="601" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587661282470" />
     <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1587120078204">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
