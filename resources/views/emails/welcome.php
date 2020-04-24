@@ -9,7 +9,17 @@
 </head>
 <body>
 
-<?php echo $data; ?>
+    <div style="width: 600px; padding: 15px; margin: 0 auto; background-color:#f5f5f5;">
+        <img src="https://www.php.net/images/logos/php-logo.svg" alt="" width="200"><br><br>
+
+        Email Body: <?php echo $data; ?>
+
+        <p>
+            Regards <br><br>
+
+            <strong>Mazharul Islam</strong>
+        </p>
+    </div>
 
 </body>
 </html>

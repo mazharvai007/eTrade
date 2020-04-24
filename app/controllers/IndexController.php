@@ -16,7 +16,7 @@ class IndexController extends BaseController
         $mail = new Mail();
 
         $data = [
-            'to' => 'swopnil420@gmail.com',
+            'to' => 'ea36d407b2-307ebe@inbox.mailtrap.io',
             'subject' => 'Welcome to eTrade Store',
             'view' => 'welcome',
             'name' => 'John Doe',

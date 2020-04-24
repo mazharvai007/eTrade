@@ -28,7 +28,7 @@ class Mail
         $this->mail->isSMTP();
         $this->mail->Mailer = 'smtp';
         $this->mail->SMTPAuth = true;
-        $this->mail->SMTPSecure = 'tls';
+        $this->mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
 
         $this->mail->Host = getenv('SMTP_HOST');
         $this->mail->Port = getenv('SMTP_PORT');
@@ -36,7 +36,8 @@ class Mail
         $environment = getenv('APP_ENV');
 
         if ($environment == 'local') {
-            $this->mail->SMTPDebug = 2;
+//            $this->mail->SMTPDebug = PHPMailer\PHPMailer\SMTP::DEBUG_CLIENT;
+            $this->mail->SMTPDebug = '';
         }
 
         // SMTP Authenticate Information
