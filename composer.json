@@ -13,6 +13,11 @@
         "illuminate/database": "^5.4",
         "phpmailer/phpmailer": "^6.1"
     },
+
+    "require-dev": {
+        "filp/whoops": "^2.7"
+    },
+
     "config": {
         "optimize-autoloader": true
     }
