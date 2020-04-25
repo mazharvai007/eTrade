@@ -30,6 +30,13 @@
     <div class="off-canvas-content" data-off-canvas-content>
         <!-- Your page content lives here -->
 
+        <div class="title-bar">
+            <div class="title-bar-left">
+                <button class="menu-icon hide-for-large" type="button" data-open="offCanvas"></button>
+                <span class="title-bar-title">{{ getenv('APP_NAME')  }}</span>
+            </div>
+        </div>
+
         @yield('content')
     </div>
 
