@@ -4,6 +4,8 @@
     <div class="dashboard">
         <div class="row expanded">
             <h2>Dashboard</h2>
+            <?php echo e($admin); ?>
+
         </div>
     </div>
 <?php $__env->stopSection(); ?>
