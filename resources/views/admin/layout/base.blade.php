@@ -8,24 +8,11 @@
     <title>Admin Panel - @yield('title')</title>
 
     <link rel="stylesheet" href="/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div class="off-canvas position-left reveal-for-large" id="offCanvas" data-off-canvas>
-
-        <!-- Start Sidebar -->
-        <ul class="vertical menu">
-            <li><a href="#">Foundation</a></li>
-            <li><a href="#">Dot</a></li>
-            <li><a href="#">ZURB</a></li>
-            <li><a href="#">Com</a></li>
-            <li><a href="#">Slash</a></li>
-            <li><a href="#">Sites</a></li>
-        </ul>
-
-        <!-- End Sidebar -->
-
-    </div>
+    @include('includes.admin-sidebar')
 
     <div class="off-canvas-content" data-off-canvas-content>
         <!-- Your page content lives here -->
