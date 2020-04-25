@@ -4,7 +4,10 @@
     <div class="dashboard">
         <div class="row expanded">
             <h2>Dashboard</h2>
-            <?php echo e($admin); ?>
+            <?php echo \App\Classes\CSRFToken::_token(); ?>
+
+            <br>
+            <?php echo \App\Classes\Session::get('token'); ?>
 
         </div>
     </div>
