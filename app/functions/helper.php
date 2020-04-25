@@ -7,7 +7,7 @@ use Philo\Blade\Blade;
  */
 function view($path, $data = [])
 {
-    $view = __DIR__ . '/../../resources/views';
+    $view = __DIR__ . '/../../resources/views/';
     $cache = __DIR__ . '/../../bootstrap/cache';
 
     $blade = new Blade($view, $cache);
