@@ -6804,6 +6804,63 @@ html.is-reveal-open body {
   }
 }
 
+/*
+* For Nav
+ */
+.nav {
+  background-color: #2a3f54;
+}
+
+.nav ul.menu > li > a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.nav ul.menu > li > a:hover, .nav ul.menu > li > a:focus, .nav ul.menu > li > a:active {
+  background-color: #1c2b39;
+}
+
+.nav h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.nav .image-holder {
+  padding: 0.7rem;
+  background-color: #f5f5f5;
+}
+
+.nav .image-holder img {
+  border: 1px solid #cfcfcf;
+  padding: 0.3rem;
+  margin: 0 auto;
+}
+
+.nav .image-holder p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/*
+* For Tile bar
+ */
+.admin-title-bar .title-bar {
+  background-color: #ededed;
+}
+
+.admin-title-bar .title-bar button.menu-icon::after {
+  background-color: #0a0a0a;
+  box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
+}
+
+.admin-title-bar .title-bar .title-bar-title {
+  font-size: 1.5rem;
+  color: #0a0a0a;
+}
+
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;

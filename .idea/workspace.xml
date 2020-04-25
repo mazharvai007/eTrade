@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/b7f32d6f848e49d4ffa402ea8c004e8828104690.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mazhar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/sass/admin/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/bea20c5a814d35f30e701f84a6f3993409189fcb.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/bea20c5a814d35f30e701f84a6f3993409189fcb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/b7f32d6f848e49d4ffa402ea8c004e8828104690.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/b7f32d6f848e49d4ffa402ea8c004e8828104690.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/sass/admin" />
       <recent name="$PROJECT_DIR$/app/controllers/admin" />
       <recent name="$PROJECT_DIR$/app/classes" />
       <recent name="$PROJECT_DIR$/app/routing" />
@@ -112,7 +114,7 @@
       <workItem from="1587496088658" duration="3913000" />
       <workItem from="1587651810685" duration="4890000" />
       <workItem from="1587724501501" duration="11253000" />
-      <workItem from="1587805130155" duration="7984000" />
+      <workItem from="1587805130155" duration="11132000" />
     </task>
     <servers />
   </component>

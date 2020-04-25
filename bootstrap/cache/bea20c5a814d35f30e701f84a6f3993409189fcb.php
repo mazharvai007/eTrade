@@ -14,7 +14,7 @@
 
     <?php echo $__env->make('includes.admin-sidebar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    <div class="off-canvas-content" data-off-canvas-content>
+    <div class="off-canvas-content admin-title-bar" data-off-canvas-content>
         <!-- Your page content lives here -->
 
         <div class="title-bar">

@@ -1,10 +1,10 @@
 <!-- Start Sidebar -->
-<div class="off-canvas position-left reveal-for-large" id="offCanvas" data-off-canvas>
+<div class="off-canvas position-left reveal-for-large nav" id="offCanvas" data-off-canvas>
 
     <h3>Welcome Admin</h3>
 
-    <div>
-        <img src="/public/images/logo.png" alt="" title="Admin">
+    <div class="image-holder text-center">
+        <img src="/public/images/logo.png" alt="" title="eTrade">
         <p>eTrade</p>
     </div>
 
