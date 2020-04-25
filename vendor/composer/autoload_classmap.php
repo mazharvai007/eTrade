@@ -10,6 +10,7 @@ return array(
     'App\\Classes\\Database' => $baseDir . '/app/classes/Database.php',
     'App\\Classes\\ErrorHandler' => $baseDir . '/app/classes/ErrorHandler.php',
     'App\\Classes\\Mail' => $baseDir . '/app/classes/Mail.php',
+    'App\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/controllers/admin/DashboardController.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\Controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',
     'App\\RouteDispatcher' => $baseDir . '/app/routing/RouteDispatcher.php',

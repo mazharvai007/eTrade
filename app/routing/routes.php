@@ -22,3 +22,8 @@ $router->setBasePath('');
  */
 
 $router->map( 'GET', '/', 'App\Controllers\IndexController@show', 'home');
+
+/*
+ * Admin Routes
+ */
+$router->map( 'GET', '/admin', 'App\Controllers\Admin\DashboardController@show', 'admin_dashboard');
