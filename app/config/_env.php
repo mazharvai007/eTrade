@@ -7,7 +7,7 @@ define('BASE_PATH', realpath(__DIR__.'/../../'));
 require_once __DIR__.'/../../vendor/autoload.php';
 
 // Assign base path into dot env
-$dotEnv = Dotenv\Dotenv::createMutable(BASE_PATH);
+$dotEnv = Dotenv\Dotenv::createImmutable(BASE_PATH);
 
 // Use load method
 $dotEnv->load();

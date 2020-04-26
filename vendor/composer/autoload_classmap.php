@@ -7,9 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AltoRouter' => $vendorDir . '/altorouter/altorouter/AltoRouter.php',
+    'App\\Classes\\CSRFToken' => $baseDir . '/app/classes/CSRFToken.php',
     'App\\Classes\\Database' => $baseDir . '/app/classes/Database.php',
     'App\\Classes\\ErrorHandler' => $baseDir . '/app/classes/ErrorHandler.php',
     'App\\Classes\\Mail' => $baseDir . '/app/classes/Mail.php',
+    'App\\Classes\\Redirect' => $baseDir . '/app/classes/Redirect.php',
+    'App\\Classes\\Request' => $baseDir . '/app/classes/Request.php',
+    'App\\Classes\\Session' => $baseDir . '/app/classes/Session.php',
+    'App\\Classes\\UploadFile' => $baseDir . '/app/classes/UploadFile.php',
     'App\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/controllers/admin/DashboardController.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\Controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',

@@ -162,9 +162,14 @@ class ComposerStaticInit03730b5fef5d20ef14d95bf1ed08dc09
 
     public static $classMap = array (
         'AltoRouter' => __DIR__ . '/..' . '/altorouter/altorouter/AltoRouter.php',
+        'App\\Classes\\CSRFToken' => __DIR__ . '/../..' . '/app/classes/CSRFToken.php',
         'App\\Classes\\Database' => __DIR__ . '/../..' . '/app/classes/Database.php',
         'App\\Classes\\ErrorHandler' => __DIR__ . '/../..' . '/app/classes/ErrorHandler.php',
         'App\\Classes\\Mail' => __DIR__ . '/../..' . '/app/classes/Mail.php',
+        'App\\Classes\\Redirect' => __DIR__ . '/../..' . '/app/classes/Redirect.php',
+        'App\\Classes\\Request' => __DIR__ . '/../..' . '/app/classes/Request.php',
+        'App\\Classes\\Session' => __DIR__ . '/../..' . '/app/classes/Session.php',
+        'App\\Classes\\UploadFile' => __DIR__ . '/../..' . '/app/classes/UploadFile.php',
         'App\\Controllers\\Admin\\DashboardController' => __DIR__ . '/../..' . '/app/controllers/admin/DashboardController.php',
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'App\\Controllers\\IndexController' => __DIR__ . '/../..' . '/app/controllers/IndexController.php',
