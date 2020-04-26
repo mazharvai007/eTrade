@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/classes/Request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/classes/UploadFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/UploadFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/6c9dc06a44c81a872c6d7ec9154e2dbe0fd026db.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/6c9dc06a44c81a872c6d7ec9154e2dbe0fd026db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +134,7 @@
       <workItem from="1587651810685" duration="4890000" />
       <workItem from="1587724501501" duration="11253000" />
       <workItem from="1587805130155" duration="18705000" />
-      <workItem from="1587921484455" duration="774000" />
+      <workItem from="1587921484455" duration="2428000" />
     </task>
     <servers />
   </component>
@@ -184,10 +190,10 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state width="914" height="266" key="GridCell.Tab.0.right/0.27.1920.1014@0.27.1920.1014" timestamp="1586632333728" />
-    <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog" timestamp="1587837987674">
+    <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog" timestamp="1587922399492">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587837987674" />
+    <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1587922399492" />
     <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1587812529441">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
