@@ -5,10 +5,6 @@ namespace App\Classes;
 
 /**
  * Class Request
- * Check request availability
- * Get request data
- * Refresh method (Clear/Request)
- *
  * @package App\Classes
  */
 class Request
@@ -42,5 +38,43 @@ class Request
         $data = $obj->all();
 
         return $data->$key;
+    }
+
+    /**
+     * Check request availability
+     * @param $key
+     * @return bool
+     */
+
+    public static function has($key)
+    {
+        return (array_key_exists($key, self::all(true))) ? true : false;
+    }
+
+    /**
+     * Get request data
+     * @param $key
+     * @param $value
+     * @return string
+     */
+
+    public static function old($key, $value)
+    {
+        $obj = new static();
+        $data = $obj->all();
+
+        return isset($data->$key->$value) ? $data->$key->$value : '';
+
+    }
+
+    /**
+     * Refresh method (Clear/Request)
+     */
+
+    public static function refresh()
+    {
+        $_POST = [];
+        $_GET = [];
+        $_FILES = [];
     }
 }
