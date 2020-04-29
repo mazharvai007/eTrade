@@ -12,8 +12,7 @@ class ProductCategoryController
     {
         $categories = Category::all();
 
-        var_dump($categories);
-        exit();
+        return view('admin/products/categories', compact('categories'));
 
     }
 
