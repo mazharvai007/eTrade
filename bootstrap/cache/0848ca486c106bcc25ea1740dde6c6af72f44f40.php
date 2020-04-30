@@ -30,6 +30,10 @@
             </div>
         </div>
 
+        <?php if($message): ?>
+            <p><?php echo e($message); ?></p>
+        <?php endif; ?>
+
         <div class="row expanded">
             <div class="column small-12 medium-11">
                 <?php if(count($categories)): ?>

@@ -32,6 +32,10 @@
             </div>
         </div>
 
+        @if($message)
+            <p>{{ $message }}</p>
+        @endif
+
         <div class="row expanded">
             <div class="column small-12 medium-11">
                 @if(count($categories))

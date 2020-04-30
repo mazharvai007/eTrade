@@ -41,3 +41,22 @@ function make($filename, $data)
 
     return $content;
 }
+
+/**
+ * @param $value
+ * @return string
+ */
+
+function slug($value)
+{
+    // Remove all characters not in this list: underscore | letters | numbers | whitespace
+    $value = preg_replace('![^'.preg_quote('_').'\pL\pN\s]+!u', '',mb_strtolower($value));
+
+    // Replace underscore with a hash
+    $value = preg_replace('!['.preg_quote('-').'\s]+!u', '- ',$value);
+
+    // Remove Whitespace
+    return trim($value, '-');
+
+
+}
