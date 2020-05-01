@@ -6,6 +6,7 @@ namespace App\Controllers\Admin;
 
 use App\Classes\CSRFToken;
 use App\Classes\Request;
+use App\Classes\ValidateRequest;
 use App\Models\Category;
 
 class ProductCategoryController
@@ -22,6 +23,13 @@ class ProductCategoryController
     {
         if (Request::has('post')) {
             $request = Request::get('post');
+            $data = ValidateRequest::maxLength('name', $request->name, 3);
+
+            if ($data) {
+                echo 'All good.'; exit();
+            } else {
+                echo 'Max length is 3'; exit();
+            }
 
             if (CSRFToken::verifyCSRFToken($request->token)) {
                 // Process form data
