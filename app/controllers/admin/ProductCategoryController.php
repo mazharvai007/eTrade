@@ -23,12 +23,12 @@ class ProductCategoryController
     {
         if (Request::has('post')) {
             $request = Request::get('post');
-            $data = ValidateRequest::maxLength('name', $request->name, 3);
+            $data = ValidateRequest::number('name', $request->name, true);
 
             if ($data) {
                 echo 'All good.'; exit();
             } else {
-                echo 'Max length is 3'; exit();
+                echo 'number only'; exit();
             }
 
             if (CSRFToken::verifyCSRFToken($request->token)) {
