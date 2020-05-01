@@ -15,6 +15,7 @@ return array(
     'App\\Classes\\Request' => $baseDir . '/app/classes/Request.php',
     'App\\Classes\\Session' => $baseDir . '/app/classes/Session.php',
     'App\\Classes\\UploadFile' => $baseDir . '/app/classes/UploadFile.php',
+    'App\\Classes\\ValidateRequest' => $baseDir . '/app/classes/ValidateRequest.php',
     'App\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/controllers/admin/DashboardController.php',
     'App\\Controllers\\Admin\\ProductCategoryController' => $baseDir . '/app/controllers/admin/ProductCategoryController.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
