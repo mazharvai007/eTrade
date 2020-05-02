@@ -18,6 +18,11 @@ class Category extends Model
     protected $fillable = ['name', 'slug'];
     protected $dates = ['deleted_at'];
 
+    /**
+     * @param $data
+     * @return array
+     * @throws \Exception
+     */
     public function transform($data)
     {
         $categories = [];

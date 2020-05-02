@@ -63,6 +63,14 @@ function slug($value)
 
 }
 
+/**
+ * @param $number_of_records
+ * @param $total_record
+ * @param $table_name
+ * @param $object
+ * @return array
+ */
+
 function paginate($number_of_records, $total_record, $table_name, $object)
 {
 

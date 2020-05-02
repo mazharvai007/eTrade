@@ -30,9 +30,7 @@
             </div>
         </div>
 
-        <?php if($message): ?>
-            <p><?php echo e($message); ?></p>
-        <?php endif; ?>
+        <?php echo $__env->make('includes.message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
         <div class="row expanded">
             <div class="column small-12 medium-11">
