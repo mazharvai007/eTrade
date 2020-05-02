@@ -38,7 +38,10 @@ elixir(function (mix) {
             // Other dependencies
             bowerPath + '/slick-carousel/slick/slick.min.js',
 
-            'js/*.js'
+            'js/etrade.js',
+            'js/admin/*.js',
+
+            'js/init.js'
 
         ], 'public/js/all.js', 'resources/assets');
 });

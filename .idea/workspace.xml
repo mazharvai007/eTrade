@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/admin/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/etrade.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/base.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +144,7 @@
       <workItem from="1588311449445" duration="16397000" />
       <workItem from="1588396808052" duration="2520000" />
       <workItem from="1588403083218" duration="1485000" />
-      <workItem from="1588427156224" duration="1873000" />
+      <workItem from="1588427156224" duration="4617000" />
     </task>
     <servers />
   </component>

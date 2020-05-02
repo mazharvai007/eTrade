@@ -1,6 +1,7 @@
 
 @extends('admin.layout.base')
 @section('title', 'Product Categories')
+@section('data-page-id', 'adminCategories')
 
 @section('content')
     <div class="category">
