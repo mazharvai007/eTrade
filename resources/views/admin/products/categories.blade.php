@@ -32,9 +32,7 @@
             </div>
         </div>
 
-        @if($message)
-            <p>{{ $message }}</p>
-        @endif
+        @include('includes.message')
 
         <div class="row expanded">
             <div class="column small-12 medium-11">
@@ -43,9 +41,9 @@
                         <tbody>
                             @foreach($categories as $category)
                                 <tr>
-                                    <td>{{ $category->name }}</td>
-                                    <td>{{ $category->slug }}</td>
-                                    <td>{{ $category->created_at->toFormattedDateString() }}</td>
+                                    <td>{{ $category['name'] }}</td>
+                                    <td>{{ $category['slug'] }}</td>
+                                    <td>{{ $category['added'] }}</td>
                                     <td width="100" class="text-center">
                                         <a href="#"><i class="fa fa-edit"></i></a>
                                         <a href="#"><i class="fa fa-times"></i></a>
@@ -54,8 +52,10 @@
                             @endforeach
                         </tbody>
                     </table>
+
+                    {!! $links !!}
                 @else
-                    <p>You have not created any category</p>
+                    <h3>You have not created any category</h3>
                 @endif
             </div>
         </div>

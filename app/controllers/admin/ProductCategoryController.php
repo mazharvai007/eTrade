@@ -11,13 +11,38 @@ use App\Models\Category;
 
 class ProductCategoryController
 {
+    public $table_name = 'categories';
+    public $categories;
+    public $links;
+
+    /**
+     * ProductCategoryController constructor.
+     */
+
+    public function __construct()
+    {
+        $total = Category::all()->count();
+        $object = new Category();
+
+        list($this->categories, $this->links) = paginate(3, $total, $this->table_name, $object);
+    }
+
+    /**
+     * Display Category
+     */
+
     public function show()
     {
-        $categories = Category::all();
-
-        return view('admin/products/categories', compact('categories'));
-
+        return view('admin/products/categories', [
+            'categories' => $this->categories,
+            'links' => $this->links
+        ]);
     }
+
+    /**
+     * @return void|null
+     * @throws \Exception
+     */
 
     public function store()
     {
@@ -29,7 +54,7 @@ class ProductCategoryController
                 $rules = [
                     'name' => [
                         'required' => true,
-                        'maxLength' => 5,
+                        'minLength' => 3,
                         'string' => true,
                         'unique' => 'categories'
                     ]
@@ -39,8 +64,13 @@ class ProductCategoryController
                 $validate->abide($_POST, $rules);
 
                 if ($validate->hasError()) {
-                    var_dump($validate->getErrorMessages());
-                    exit();
+                    $errors = $validate->getErrorMessages();
+
+                    return view('admin/products/categories', [
+                        'categories' => $this->categories,
+                        'links' => $this->links,
+                        'errors' => $errors
+                    ]);
                 }
 
                 // Process form data
@@ -49,10 +79,14 @@ class ProductCategoryController
                     'slug' => slug($request->name)
                 ]);
 
-                $categories = Category::all();
-                $message = 'Category Created';
+                $total = Category::all()->count();
+                list($this->categories, $this->links) = paginate(3, $total, $this->table_name, new Category());
 
-                return view('admin/products/categories', compact('categories', 'message'));
+                return view('admin/products/categories', [
+                    'categories' => $this->categories,
+                    'links' => $this->links,
+                    'success' => 'Category Created'
+                ]);
             }
 
             throw new \Exception('Token mismatch');

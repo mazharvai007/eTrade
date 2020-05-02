@@ -1,6 +1,8 @@
 <?php
 
 use Philo\Blade\Blade;
+use voku\helper\Paginator;
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 /*
  * Display view using Laravel Blade Engine
@@ -59,4 +61,24 @@ function slug($value)
     return trim($value, '-');
 
 
+}
+
+/**
+ * @param $number_of_records
+ * @param $total_record
+ * @param $table_name
+ * @param $object
+ * @return array
+ */
+
+function paginate($number_of_records, $total_record, $table_name, $object)
+{
+
+    $pages = new Paginator($number_of_records, 'p');
+    $pages->set_total($total_record);
+
+    $data = Capsule::select("SELECT * FROM $table_name ORDER BY created_at DESC" . $pages->get_limit());
+    $categories = $object->transform($data);
+
+    return [$categories, $pages->page_links()];
 }

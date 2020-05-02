@@ -585,4 +585,6 @@ return array(
     'Whoops\\Util\\Misc' => $vendorDir . '/filp/whoops/src/Whoops/Util/Misc.php',
     'Whoops\\Util\\SystemFacade' => $vendorDir . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
     'Whoops\\Util\\TemplateHelper' => $vendorDir . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+    'voku\\helper\\Paginator' => $vendorDir . '/voku/pagination/src/voku/helper/Paginator.php',
+    'voku\\helper\\PaginatorHelper' => $vendorDir . '/voku/pagination/src/voku/helper/PaginatorHelper.php',
 );

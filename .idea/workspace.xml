@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/b10d24130256cee49944835851a57351ae6e547f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/message.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +79,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/voku/pagination" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aONFmildRNFT8Ane8Iavo3UlEX" />
@@ -133,7 +140,9 @@
       <workItem from="1588008081307" duration="1837000" />
       <workItem from="1588181078195" duration="4776000" />
       <workItem from="1588267083127" duration="2492000" />
-      <workItem from="1588311449445" duration="9148000" />
+      <workItem from="1588311449445" duration="16397000" />
+      <workItem from="1588396808052" duration="2520000" />
+      <workItem from="1588403083218" duration="663000" />
     </task>
     <servers />
   </component>
@@ -193,9 +202,9 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588311567626" />
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1588183528673">
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1588369930932">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588183528673" />
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588369930932" />
   </component>
 </project>

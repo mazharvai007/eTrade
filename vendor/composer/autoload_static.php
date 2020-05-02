@@ -14,6 +14,10 @@ class ComposerStaticInit03730b5fef5d20ef14d95bf1ed08dc09
     );
 
     public static $prefixLengthsPsr4 = array (
+        'v' => 
+        array (
+            'voku\\helper\\' => 12,
+        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -62,6 +66,10 @@ class ComposerStaticInit03730b5fef5d20ef14d95bf1ed08dc09
     );
 
     public static $prefixDirsPsr4 = array (
+        'voku\\helper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/voku/pagination/src/voku/helper',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -740,6 +748,8 @@ class ComposerStaticInit03730b5fef5d20ef14d95bf1ed08dc09
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'voku\\helper\\Paginator' => __DIR__ . '/..' . '/voku/pagination/src/voku/helper/Paginator.php',
+        'voku\\helper\\PaginatorHelper' => __DIR__ . '/..' . '/voku/pagination/src/voku/helper/PaginatorHelper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
