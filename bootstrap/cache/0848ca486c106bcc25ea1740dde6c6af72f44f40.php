@@ -1,4 +1,5 @@
 <?php $__env->startSection('title', 'Product Categories'); ?>
+<?php $__env->startSection('data-page-id', 'adminCategories'); ?>
 
 <?php $__env->startSection('content'); ?>
     <div class="category">
@@ -51,10 +52,9 @@
                                             <h2>Edit Category</h2>
                                             <form>
                                                 <div class="input-group">
-                                                    <input type="text" name="name" value="<?php echo e($category['name']); ?>">
-                                                    <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
+                                                    <input type="text" id="item-name-<?php echo e($category['id']); ?>" name="name" value="<?php echo e($category['name']); ?>">
                                                     <div>
-                                                        <input type="submit" class="button update-category" id="<?php echo e($category['id']); ?>" value="Update">
+                                                        <input type="submit" class="button update-category" id="<?php echo e($category['id']); ?>" name="token" data-token="<?php echo e(\App\Classes\CSRFToken::_token()); ?>" value="Update">
                                                     </div>
                                                 </div>
                                             </form>
