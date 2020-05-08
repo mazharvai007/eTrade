@@ -16,7 +16,7 @@ elixir.config.sourcemaps = false;
 
 elixir(function (mix) {
     // Compile sass to css
-    mix.sass('resources/assets/sass/app.sass', 'resources/assets/css');
+    mix.sass('resources/assets/sass/app.scss', 'resources/assets/css');
 
     var bowerPath = 'bower/vendor';
 

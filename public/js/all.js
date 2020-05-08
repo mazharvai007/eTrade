@@ -45,7 +45,7 @@
                         li.appendChild(document.createTextNode(value));
                         ul.appendChild(li);
                     });
-                    $('.notification').css('display', 'block').delay(4000).slideUp(300).html(ul);
+                    $('.notification').css('display', 'block').removeClass('primary').addClass('alert').delay(6000).slideUp(300).html(ul);
                 }
             });
 
