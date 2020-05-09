@@ -9,6 +9,82 @@
 (function () {
     'use strict';
 
+    window.eTrade = {
+        global: {},
+        admin: {}
+    }
+})();
+(function () {
+    'use strict';
+
+    eTrade.admin.delete = function () {
+        $('table[data-form="deleteForm"]').on('click', '.delete-item', function (e) {
+            e.preventDefault();
+
+            var form = $(this);
+
+            $('#confirm').foundation('open').on('click', '#delete-btn', function () {
+                form.submit();
+            });
+        });
+    };
+})();
+(function () {
+    'use strict';
+
+    eTrade.admin.update = function () {
+        // Update product category
+        $(".update-category").on('click', function (e) {
+
+            var token = $(this).data('token');
+            var id = $(this).attr('id');
+            var name = $("#item-name-" + id).val();
+
+            $.ajax({
+                type: 'POST',
+                url: '/admin/product/categories/' + id + '/edit',
+                data: {
+                    token: token,
+                    name: name
+                },
+                success: function (data) {
+                    var response = jQuery.parseJSON(data);
+                    $('.notification').css('display', 'block').delay(4000).slideUp(300).html(response.success);
+                },
+                error: function (request, error) {
+                    var errors = jQuery.parseJSON(request.responseText);
+                    var ul = document.createElement('ul');
+
+                    $.each(errors, function (key, value) {
+                        var li = document.createElement('li');
+                        li.appendChild(document.createTextNode(value));
+                        ul.appendChild(li);
+                    });
+                    $('.notification').css('display', 'block').removeClass('primary').addClass('alert').delay(6000).slideUp(300).html(ul);
+                }
+            });
+
+            e.preventDefault();
+        });
+    };
+})();
+(function () {
+    'use strict';
+
     $(document).foundation();
+
+    $(document).ready(function () {
+        // Switch Pages
+        switch ($('body').data('page-id')) {
+            case 'home':
+                break;
+            case 'adminCategories':
+                eTrade.admin.update();
+                eTrade.admin.delete();
+                break;
+            default:
+                // do nothing
+        }
+    });
 
 })();

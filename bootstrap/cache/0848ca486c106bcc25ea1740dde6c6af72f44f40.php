@@ -1,13 +1,16 @@
 <?php $__env->startSection('title', 'Product Categories'); ?>
+<?php $__env->startSection('data-page-id', 'adminCategories'); ?>
 
 <?php $__env->startSection('content'); ?>
-    <div class="category">
-        <div class="row expanded">
-            <h2>Product Categories</h2>
+    <div class="category grid-container fluid">
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-12">
+                <h2>Product Categories</h2>
+            </div>
         </div>
 
-        <div class="row expanded">
-            <div class="column medium-6 small-12">
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-6 medium-6 small-12">
                 <form action="" method="post">
                     <div class="input-group">
                         <input type="text" class="input-group-field" placeholder="Search by name">
@@ -17,7 +20,7 @@
                     </div>
                 </form>
             </div>
-            <div class="column medium-5 small-12 end">
+            <div class="cell large-6 medium-6 small-12 end">
                 <form action="/admin/product/categories" method="post">
                     <div class="input-group">
                         <input type="text" class="input-group-field" name="name" placeholder="Category Name name">
@@ -32,10 +35,10 @@
 
         <?php echo $__env->make('includes.message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-        <div class="row expanded">
-            <div class="column small-12 medium-11">
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-12 small-12 medium-12">
                 <?php if(count($categories)): ?>
-                    <table class="hover">
+                    <table class="hover" data-form="deleteForm">
                         <tbody>
                             <?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $category): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <tr>
@@ -43,14 +46,39 @@
                                     <td><?php echo e($category['slug']); ?></td>
                                     <td><?php echo e($category['added']); ?></td>
                                     <td width="100" class="text-center">
-                                        <a href="#"><i class="fa fa-edit"></i></a>
-                                        <a href="#"><i class="fa fa-times"></i></a>
+                                        <span>
+                                           <a data-open="item-<?php echo e($category['id']); ?>"><i class="fa fa-edit"></i></a>
+                                        </span>
+                                        <span style="display: inline-block">
+                                            <form action="/admin/product/categories/<?php echo e($category['id']); ?>/delete" method="post" class="delete-item">
+                                                <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
+                                                <button type="submit"><i class="fa fa-times delete"></i></button>
+                                            </form>
+                                        </span>
+
+                                        <!-- Edit Category Modal -->
+                                        <div class="reveal" id="item-<?php echo e($category['id']); ?>" data-reveal data-close-on-click="false" data-close-on-esc="false" data-animation-in="scale-in-up">
+                                            <div class="notification callout primary"></div>
+                                            <h2>Edit Category</h2>
+                                            <form>
+                                                <div class="input-group">
+                                                    <input type="text" id="item-name-<?php echo e($category['id']); ?>" name="name" value="<?php echo e($category['name']); ?>">
+                                                    <div>
+                                                        <input type="submit" class="button update-category" id="<?php echo e($category['id']); ?>" name="token" data-token="<?php echo e(\App\Classes\CSRFToken::_token()); ?>" value="Update">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <a href="/admin/product/categories" class="close-button" aria-label="Close modal" type="button">
+                                                <span aria-hidden="true">&times;</span>
+                                            </a>
+                                        </div>
                                     </td>
                                 </tr>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </tbody>
                     </table>
 
+                    <!-- Display Pagination -->
                     <?php echo $links; ?>
 
                 <?php else: ?>
@@ -59,5 +87,8 @@
             </div>
         </div>
     </div>
+
+    <?php echo $__env->make('includes.delete-modal', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('admin.layout.base', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/mazhar/www/practice/php/eTrade/resources/views/admin/products/categories.blade.php ENDPATH**/ ?>

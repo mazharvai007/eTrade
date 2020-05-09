@@ -6861,6 +6861,37 @@ html.is-reveal-open body {
   color: #0a0a0a;
 }
 
+.notification {
+  display: none;
+  margin-top: 1.5rem;
+}
+
+.notification ul li {
+  list-style-type: none;
+}
+
+.reveal {
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.reveal:focus {
+  outline: none;
+}
+
+.reveal h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.fa-edit {
+  color: #8a6d3b;
+}
+
+.fa-times {
+  color: #ff0000;
+}
+
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;
