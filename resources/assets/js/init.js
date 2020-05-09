@@ -11,6 +11,7 @@
             case 'adminCategories':
                 eTrade.admin.update();
                 eTrade.admin.delete();
+                eTrade.admin.create();
                 break;
             default:
                 // do nothing
