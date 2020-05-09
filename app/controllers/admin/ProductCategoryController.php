@@ -163,9 +163,10 @@ class ProductCategoryController extends BaseController
                 Session::add('success', 'Category Deleted');
 
                 Redirect::to('/admin/product/categories');
+                exit();
             }
 
-//            throw new \Exception('Token mismatch');
+            throw new \Exception('Token mismatch');
         }
 
         return null;

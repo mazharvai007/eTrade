@@ -33,9 +33,9 @@ class SubCategoryController extends BaseController
                     'name' => [
                         'required' => true,
                         'minLength' => 6,
-                        'string' => true,
-                        'category_id' => ['required']
-                    ]
+                        'string' => true
+                    ],
+                    'category_id' => ['required' => true]
                 ];
 
                 $validate = new ValidateRequest();
@@ -74,6 +74,7 @@ class SubCategoryController extends BaseController
                 ]);
 
                 echo json_encode(['success' => 'Subcategory create successfully.']);
+                exit();
             }
 
             throw new \Exception('Token mismatch');
