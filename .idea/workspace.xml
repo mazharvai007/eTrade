@@ -20,20 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/admin/create.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/SubCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/SubCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +154,7 @@
       <workItem from="1588945544414" duration="8168000" />
       <workItem from="1588998361268" duration="7166000" />
       <workItem from="1589006349047" duration="2000" />
-      <workItem from="1589025199917" duration="6462000" />
+      <workItem from="1589025199917" duration="7937000" />
     </task>
     <servers />
   </component>

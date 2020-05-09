@@ -11,11 +11,14 @@ use App\Classes\Session;
 use App\Classes\ValidateRequest;
 use App\Controllers\BaseController;
 use App\Models\Category;
+use App\Models\SubCategory;
 
 class ProductCategoryController extends BaseController
 {
     public $table_name = 'categories';
     public $categories;
+    public $subcategories;
+    public $subcategories_links;
     public $links;
 
     /**
@@ -25,9 +28,11 @@ class ProductCategoryController extends BaseController
     public function __construct()
     {
         $total = Category::all()->count();
+        $subtotal = SubCategory::all()->count();
         $object = new Category();
 
         list($this->categories, $this->links) = paginate(3, $total, $this->table_name, $object);
+        list($this->subcategories, $this->subcategories_links) = paginate(3, $subtotal, 'sub_categories', new SubCategory());
     }
 
     /**
@@ -38,7 +43,9 @@ class ProductCategoryController extends BaseController
     {
         return view('admin/products/categories', [
             'categories' => $this->categories,
-            'links' => $this->links
+            'links' => $this->links,
+            'subcategories' => $this->subcategories,
+            'subcategories_links' => $this->subcategories_links
         ]);
     }
 
@@ -72,7 +79,9 @@ class ProductCategoryController extends BaseController
                     return view('admin/products/categories', [
                         'categories' => $this->categories,
                         'links' => $this->links,
-                        'errors' => $errors
+                        'errors' => $errors,
+                        'subcategories' => $this->subcategories,
+                        'subcategories_links' => $this->subcategories_links
                     ]);
                 }
 
@@ -83,12 +92,16 @@ class ProductCategoryController extends BaseController
                 ]);
 
                 $total = Category::all()->count();
+                $subtotal = SubCategory::all()->count();
                 list($this->categories, $this->links) = paginate(6, $total, $this->table_name, new Category());
+                list($this->subcategories, $this->subcategories_links) = paginate(3, $subtotal, 'sub_categories', new SubCategory());
 
                 return view('admin/products/categories', [
                     'categories' => $this->categories,
                     'links' => $this->links,
-                    'success' => 'Category Created'
+                    'success' => 'Category Created',
+                    'subcategories' => $this->subcategories,
+                    'subcategories_links' => $this->subcategories_links
                 ]);
             }
 
