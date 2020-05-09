@@ -46,17 +46,20 @@
                                     <td><?php echo e($category['slug']); ?></td>
                                     <td><?php echo e($category['added']); ?></td>
                                     <td width="100" class="text-center">
-                                        <span>
+                                        <span data-tooltip class="top" tabindex="2" title="Add Subcategory">
+                                           <a data-open="add-subcategory-<?php echo e($category['id']); ?>"><i class="fa fa-plus"></i></a>
+                                        </span>
+                                        <span data-tooltip class="top" tabindex="2" title="Edit Category">
                                            <a data-open="item-<?php echo e($category['id']); ?>"><i class="fa fa-edit"></i></a>
                                         </span>
-                                        <span style="display: inline-block">
+                                        <span style="display: inline-block" data-tooltip class="top" tabindex="2" title="Delete Category">
                                             <form action="/admin/product/categories/<?php echo e($category['id']); ?>/delete" method="post" class="delete-item">
                                                 <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
                                                 <button type="submit"><i class="fa fa-times delete"></i></button>
                                             </form>
                                         </span>
 
-                                        <!-- Edit Category Modal -->
+                                        <!-- Start Edit Category Modal -->
                                         <div class="reveal" id="item-<?php echo e($category['id']); ?>" data-reveal data-close-on-click="false" data-close-on-esc="false" data-animation-in="scale-in-up">
                                             <div class="notification callout primary"></div>
                                             <h2>Edit Category</h2>
@@ -72,6 +75,25 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </a>
                                         </div>
+                                        <!-- End Edit Category Modal -->
+
+                                        <!-- Start Add Sub-Category Modal -->
+                                        <div class="reveal" id="add-subcategory-<?php echo e($category['id']); ?>" data-reveal data-close-on-click="false" data-close-on-esc="false" data-animation-in="scale-in-up">
+                                            <div class="notification callout primary"></div>
+                                            <h2>Add Sub-Category</h2>
+                                            <form>
+                                                <div class="input-group">
+                                                    <input type="text" id="subcategory-name-<?php echo e($category['id']); ?>">
+                                                    <div>
+                                                        <input type="submit" class="button add-subcategory" id="<?php echo e($category['id']); ?>" name="token" data-token="<?php echo e(\App\Classes\CSRFToken::_token()); ?>" value="Create">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <a href="/admin/product/categories" class="close-button" aria-label="Close modal" type="button">
+                                                <span aria-hidden="true">&times;</span>
+                                            </a>
+                                        </div>
+                                        <!-- End Add Sub-Category Modal -->
                                     </td>
                                 </tr>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
