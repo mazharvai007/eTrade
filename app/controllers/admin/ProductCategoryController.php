@@ -5,7 +5,9 @@ namespace App\Controllers\Admin;
 
 
 use App\Classes\CSRFToken;
+use App\Classes\Redirect;
 use App\Classes\Request;
+use App\Classes\Session;
 use App\Classes\ValidateRequest;
 use App\Models\Category;
 
@@ -54,7 +56,7 @@ class ProductCategoryController
                 $rules = [
                     'name' => [
                         'required' => true,
-                        'minLength' => 3,
+                        'minLength' => 6,
                         'string' => true,
                         'unique' => 'categories'
                     ]
@@ -80,7 +82,7 @@ class ProductCategoryController
                 ]);
 
                 $total = Category::all()->count();
-                list($this->categories, $this->links) = paginate(3, $total, $this->table_name, new Category());
+                list($this->categories, $this->links) = paginate(6, $total, $this->table_name, new Category());
 
                 return view('admin/products/categories', [
                     'categories' => $this->categories,
@@ -95,13 +97,20 @@ class ProductCategoryController
         return null;
     }
 
+    /**
+     * Edit/Update Category
+     * @param $id
+     * @return null
+     * @throws \Exception
+     */
+
     public function edit($id)
     {
         if (Request::has('post')) {
             $request = Request::get('post');
 
 
-            if (CSRFToken::verifyCSRFToken($request->token)) {
+            if (CSRFToken::verifyCSRFToken($request->token, false)) {
                 $rules = [
                     'name' => [
                         'required' => true,
@@ -129,6 +138,26 @@ class ProductCategoryController
             }
 
             throw new \Exception('Token mismatch');
+        }
+
+        return null;
+    }
+
+    public function delete($id)
+    {
+        if (Request::has('post')) {
+            $request = Request::get('post');
+
+            if (CSRFToken::verifyCSRFToken($request->token, false)) {
+
+                Category::destroy($id);
+
+                Session::add('success', 'Category Deleted');
+
+                Redirect::to('/admin/product/categories');
+            }
+
+//            throw new \Exception('Token mismatch');
         }
 
         return null;

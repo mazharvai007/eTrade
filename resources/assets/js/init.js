@@ -10,6 +10,7 @@
                 break;
             case 'adminCategories':
                 eTrade.admin.update();
+                eTrade.admin.delete();
                 break;
             default:
                 // do nothing

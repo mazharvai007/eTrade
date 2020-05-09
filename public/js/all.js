@@ -17,6 +17,21 @@
 (function () {
     'use strict';
 
+    eTrade.admin.delete = function () {
+        $('table[data-form="deleteForm"]').on('click', '.delete-item', function (e) {
+            e.preventDefault();
+
+            var form = $(this);
+
+            $('#confirm').foundation('open').on('click', '#delete-btn', function () {
+                form.submit();
+            });
+        });
+    };
+})();
+(function () {
+    'use strict';
+
     eTrade.admin.update = function () {
         // Update product category
         $(".update-category").on('click', function (e) {
@@ -65,6 +80,7 @@
                 break;
             case 'adminCategories':
                 eTrade.admin.update();
+                eTrade.admin.delete();
                 break;
             default:
                 // do nothing

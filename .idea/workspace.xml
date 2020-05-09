@@ -20,18 +20,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/29ec2115574b4716eeca088c4a4c8fed5a425fb9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/admin/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/delete-modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Inflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/LanguageInflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/NoopWordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Pattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Patterns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Ruleset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitution.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitutions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Word.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/RulesetInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/WordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/roave-backward-compatibility-check.phar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/classes/CSRFToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/CSRFToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0848ca486c106bcc25ea1740dde6c6af72f44f40.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/6c9dc06a44c81a872c6d7ec9154e2dbe0fd026db.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/6c9dc06a44c81a872c6d7ec9154e2dbe0fd026db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/b10d24130256cee49944835851a57351ae6e547f.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/b10d24130256cee49944835851a57351ae6e547f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/admin/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/admin/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/docs/en/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/docs/en/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +213,8 @@
       <workItem from="1588699288428" duration="1718000" />
       <workItem from="1588931658366" duration="9000" />
       <workItem from="1588931675749" duration="1565000" />
-      <workItem from="1588945544414" duration="2033000" />
+      <workItem from="1588945544414" duration="8168000" />
+      <workItem from="1588998361268" duration="4828000" />
     </task>
     <servers />
   </component>
@@ -215,10 +274,10 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="321" y="340" width="649" height="505" key="NewPhpClassDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588311567626" />
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1588369930932">
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog" timestamp="1588959346643">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588369930932" />
+    <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1588959346643" />
     <state x="549" y="189" key="SettingsEditor" timestamp="1588700620638">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
