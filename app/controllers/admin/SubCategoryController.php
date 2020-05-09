@@ -11,36 +11,10 @@ use App\Classes\Session;
 use App\Classes\ValidateRequest;
 use App\Controllers\BaseController;
 use App\Models\Category;
+use App\Models\SubCategory;
 
-class ProductCategoryController extends BaseController
+class SubCategoryController extends BaseController
 {
-    public $table_name = 'categories';
-    public $categories;
-    public $links;
-
-    /**
-     * ProductCategoryController constructor.
-     */
-
-    public function __construct()
-    {
-        $total = Category::all()->count();
-        $object = new Category();
-
-        list($this->categories, $this->links) = paginate(3, $total, $this->table_name, $object);
-    }
-
-    /**
-     * Display Category
-     */
-
-    public function show()
-    {
-        return view('admin/products/categories', [
-            'categories' => $this->categories,
-            'links' => $this->links
-        ]);
-    }
 
     /**
      * @return void|null
@@ -51,6 +25,7 @@ class ProductCategoryController extends BaseController
     {
         if (Request::has('post')) {
             $request = Request::get('post');
+            $extra_errors = [];
 
 
             if (CSRFToken::verifyCSRFToken($request->token, false)) {
@@ -59,37 +34,46 @@ class ProductCategoryController extends BaseController
                         'required' => true,
                         'minLength' => 6,
                         'string' => true,
-                        'unique' => 'categories'
+                        'category_id' => ['required']
                     ]
                 ];
 
                 $validate = new ValidateRequest();
                 $validate->abide($_POST, $rules);
 
-                if ($validate->hasError()) {
-                    $errors = $validate->getErrorMessages();
+                // Check subcategory exists or not
+                $duplicate_subcategory = SubCategory::where('name', $request->name)->where('category_id', $request->category_id)->exists();
 
-                    return view('admin/products/categories', [
-                        'categories' => $this->categories,
-                        'links' => $this->links,
-                        'errors' => $errors
-                    ]);
+                if ($duplicate_subcategory) {
+                    $extra_errors['name'] = array('Subcategory already exists.');
+                }
+
+                // Check product category exist or not
+                $category = Category::where('id', $request->category_id)->exists();
+
+                if (!$category) {
+                    $extra_errors['name'] = array('Invalid product category.');
+                }
+
+                // Error validation
+                if ($validate->hasError() || $duplicate_subcategory || !$category) {
+                    $errors = $validate->getErrorMessages();
+                    count($extra_errors) ? $response = array_merge($errors, $extra_errors) : $response = $errors;
+
+                    header('HTTP/1.1 422 Unprocessable Entity', true, 422);
+
+                    echo json_encode($response);
+                    exit();
                 }
 
                 // Process form data
-                Category::create([
+                SubCategory::create([
                     'name' => $request->name,
+                    'category_id' => $request->category_id,
                     'slug' => slug($request->name)
                 ]);
 
-                $total = Category::all()->count();
-                list($this->categories, $this->links) = paginate(6, $total, $this->table_name, new Category());
-
-                return view('admin/products/categories', [
-                    'categories' => $this->categories,
-                    'links' => $this->links,
-                    'success' => 'Category Created'
-                ]);
+                echo json_encode(['success' => 'Subcategory create successfully.']);
             }
 
             throw new \Exception('Token mismatch');
@@ -99,7 +83,7 @@ class ProductCategoryController extends BaseController
     }
 
     /**
-     * Edit/Update Category
+     * Edit/Update SubCategory
      * @param $id
      * @return null
      * @throws \Exception
@@ -145,7 +129,7 @@ class ProductCategoryController extends BaseController
     }
 
     /**
-     * Delete Category
+     * Delete SubCategory
      * @param $id
      * @return |null
      * @throws \Exception
