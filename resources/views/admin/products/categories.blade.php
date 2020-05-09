@@ -143,15 +143,24 @@
                                         </span>
 
                                         <!-- Start Edit SubCategory Modal -->
-                                        <div class="reveal" id="item-subcategory-{{ $category['id'] }}" data-reveal data-close-on-click="false" data-close-on-esc="false" data-animation-in="scale-in-up">
+                                        <div class="reveal" id="item-subcategory-{{ $subcategory['id'] }}" data-reveal data-close-on-click="false" data-close-on-esc="false" data-animation-in="scale-in-up">
                                             <div class="notification callout primary"></div>
                                             <h2>Edit Subcategory</h2>
                                             <form>
-                                                <div class="input-group">
-                                                    <input type="text" id="item-subcategory-name-{{ $subcategory['id'] }}" value="{{ $subcategory['name'] }}">
-                                                    <div>
-                                                        <input type="submit" class="button update-subcategory" id="{{ $subcategory['id'] }}" name="token" data-token="{{ \App\Classes\CSRFToken::_token() }}" value="Update">
-                                                    </div>
+                                                <input type="text" id="item-subcategory-name-{{ $subcategory['id'] }}" value="{{ $subcategory['name'] }}">
+                                                <label>
+                                                    Change Category
+                                                    <select name="" id="item-category-{{ $subcategory['category_id'] }}" id="">
+                                                        @foreach(\App\Models\Category::all() as $category)
+                                                            @if($category->id == $subcategory['category_id'])
+                                                                <option selected="selected" value="{{ $category->id }}">{{ $category->name }}</option>
+                                                            @endif
+                                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                                        @endforeach
+                                                    </select>
+                                                </label>
+                                                <div>
+                                                    <input type="submit" class="button update-subcategory" id="{{ $subcategory['id'] }}" data-category-id="{{ $subcategory['category_id'] }}" data-token="{{ \App\Classes\CSRFToken::_token() }}" value="Update">
                                                 </div>
                                             </form>
                                             <a href="/admin/product/categories" class="close-button" aria-label="Close modal" type="button">
