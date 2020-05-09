@@ -1,3 +1,22 @@
+table {
+  border-collapse: collapse;
+
+  th, tr, td {
+    border: 1px solid #c0c0c0;
+  }
+
+  .fa-edit {
+    color: #8a6d3b;
+  }
+  .fa-times {
+    color: #ff0000;
+  }
+}
+hr {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0;
+}
 .notification {
   display: none;
   margin-top: 1.5rem;
@@ -20,11 +39,4 @@
     font-size: 1.5rem;
     font-weight: 500;
   }
-}
-
-.fa-edit {
-  color: #8a6d3b;
-}
-.fa-times {
-  color: #ff0000;
 }

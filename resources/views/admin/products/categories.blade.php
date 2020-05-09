@@ -7,8 +7,9 @@
     <!-- Start Category Display -->
     <div class="category grid-container fluid">
         <div class="grid-x grid-margin-x">
-            <div class="cell large-12">
+            <div class="cell large-12 medium-12 small-12">
                 <h2>Product Categories</h2>
+                <hr>
             </div>
         </div>
 
@@ -41,7 +42,15 @@
         <div class="grid-x grid-margin-x">
             <div class="cell large-12 small-12 medium-12">
                 @if(count($categories))
-                    <table class="hover" data-form="deleteForm">
+                    <table class="hover unstriped" data-form="deleteForm">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Slug</th>
+                                <th>Date Created</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             @foreach($categories as $category)
                                 <tr>
@@ -118,13 +127,22 @@
         <div class="grid-x grid-margin-x">
             <div class="cell large-12">
                 <h2>Sub Categories</h2>
+                <hr>
             </div>
         </div>
 
         <div class="grid-x grid-margin-x">
             <div class="cell large-12 small-12 medium-12">
                 @if(count($subcategories))
-                    <table class="hover" data-form="deleteForm">
+                    <table class="hover unstriped" data-form="deleteForm">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Slug</th>
+                                <th>Date Created</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             @foreach($subcategories as $subcategory)
                                 <tr>

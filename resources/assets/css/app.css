@@ -6861,6 +6861,28 @@ html.is-reveal-open body {
   color: #0a0a0a;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table th, table tr, table td {
+  border: 1px solid #c0c0c0;
+}
+
+table .fa-edit {
+  color: #8a6d3b;
+}
+
+table .fa-times {
+  color: #ff0000;
+}
+
+hr {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0;
+}
+
 .notification {
   display: none;
   margin-top: 1.5rem;
@@ -6882,14 +6904,6 @@ html.is-reveal-open body {
 .reveal h2 {
   font-size: 1.5rem;
   font-weight: 500;
-}
-
-.fa-edit {
-  color: #8a6d3b;
-}
-
-.fa-times {
-  color: #ff0000;
 }
 
 .slide-in-down.mui-enter {
