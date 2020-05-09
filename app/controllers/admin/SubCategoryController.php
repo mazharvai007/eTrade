@@ -166,14 +166,15 @@ class SubCategoryController extends BaseController
 
             if (CSRFToken::verifyCSRFToken($request->token, false)) {
 
-                Category::destroy($id);
+                SubCategory::destroy($id);
 
-                Session::add('success', 'Category Deleted');
+                Session::add('success', 'SubCategory Deleted');
 
                 Redirect::to('/admin/product/categories');
+                exit();
             }
 
-//            throw new \Exception('Token mismatch');
+            throw new \Exception('Token mismatch');
         }
 
         return null;
