@@ -18,6 +18,7 @@ return array(
     'App\\Classes\\ValidateRequest' => $baseDir . '/app/classes/ValidateRequest.php',
     'App\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/controllers/admin/DashboardController.php',
     'App\\Controllers\\Admin\\ProductCategoryController' => $baseDir . '/app/controllers/admin/ProductCategoryController.php',
+    'App\\Controllers\\Admin\\ProductController' => $baseDir . '/app/controllers/admin/ProductController.php',
     'App\\Controllers\\Admin\\SubCategoryController' => $baseDir . '/app/controllers/admin/SubCategoryController.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\Controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',
