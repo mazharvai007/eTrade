@@ -33,7 +33,7 @@
                     <label>Product Category:
                         <select name="category" id="product-category">
                             <option value="{{ \App\Classes\Request::old('post', 'category') ? : '' }}">
-                                {{ \App\Classes\Request::old('post', 'category') ? : '--Select Category--' }}
+                                {{ \App\Classes\Request::old('post', 'category') ? : '---Select Category---' }}
                             </option>
 
                             @foreach($categories as $category)
@@ -45,8 +45,8 @@
                 <div class="cell small-12 medium-6 large-6">
                     <label>Product Subcategory:
                         <select name="subcategory" id="product-subcategory">
-                            <option value="{{ \App\Classes\Request::old('post', 'category') ? : '' }}">
-                                {{ \App\Classes\Request::old('post', 'subcategory') ? : '--Select SubCategory--' }}
+                            <option value="{{ \App\Classes\Request::old('post', 'subcategory') ? : '' }}">
+                                {{ \App\Classes\Request::old('post', 'subcategory') ? : '---Select SubCategory---' }}
                             </option>
                         </select>
                     </label>

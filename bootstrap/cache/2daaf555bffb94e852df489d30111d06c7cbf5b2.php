@@ -31,7 +31,7 @@
                     <label>Product Category:
                         <select name="category" id="product-category">
                             <option value="<?php echo e(\App\Classes\Request::old('post', 'category') ? : ''); ?>">
-                                <?php echo e(\App\Classes\Request::old('post', 'category') ? : '--Select Category--'); ?>
+                                <?php echo e(\App\Classes\Request::old('post', 'category') ? : '---Select Category---'); ?>
 
                             </option>
 
@@ -44,8 +44,8 @@
                 <div class="cell small-12 medium-6 large-6">
                     <label>Product Subcategory:
                         <select name="subcategory" id="product-subcategory">
-                            <option value="<?php echo e(\App\Classes\Request::old('post', 'category') ? : ''); ?>">
-                                <?php echo e(\App\Classes\Request::old('post', 'subcategory') ? : '--Select SubCategory--'); ?>
+                            <option value="<?php echo e(\App\Classes\Request::old('post', 'subcategory') ? : ''); ?>">
+                                <?php echo e(\App\Classes\Request::old('post', 'subcategory') ? : '---Select SubCategory---'); ?>
 
                             </option>
                         </select>

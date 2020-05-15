@@ -8,6 +8,9 @@
         switch ($('body').data('page-id')) {
             case 'home':
                 break;
+            case 'adminProduct':
+                eTrade.admin.changeEvent();
+                break;
             case 'adminCategories':
                 eTrade.admin.update();
                 eTrade.admin.delete();
