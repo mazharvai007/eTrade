@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/2daaf555bffb94e852df489d30111d06c7cbf5b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/2daaf555bffb94e852df489d30111d06c7cbf5b2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" afterDir="false" />
     </list>
@@ -89,7 +91,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -101,18 +103,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/controllers/admin" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/products" />
-      <recent name="$PROJECT_DIR$/resources/assets/js/admin" />
-      <recent name="$PROJECT_DIR$/app/routing" />
-      <recent name="$PROJECT_DIR$/app/models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/classes" />
       <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/controllers/admin" />
       <recent name="$PROJECT_DIR$/resources/assets/sass/admin" />
+      <recent name="$PROJECT_DIR$/app/routing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/controllers/admin" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/products" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/admin" />
       <recent name="$PROJECT_DIR$/app/routing" />
     </key>
   </component>
@@ -156,7 +158,10 @@
       <workItem from="1589025199917" duration="12856000" />
       <workItem from="1589128259258" duration="3355000" />
       <workItem from="1589525662556" duration="133000" />
-      <workItem from="1589525805319" duration="6672000" />
+      <workItem from="1589525805319" duration="7407000" />
+      <workItem from="1589551035926" duration="1444000" />
+      <workItem from="1589552608186" duration="1404000" />
+      <workItem from="1590071764145" duration="2301000" />
     </task>
     <servers />
   </component>

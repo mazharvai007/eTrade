@@ -71,7 +71,7 @@
                     <br>
                     <div class="input-group">
                         <span class="input-group-label">Product Image</span>
-                        <input class="input-group-field" type="file">
+                        <input class="input-group-field" type="file" name="productImage">
                     </div>
                 </div>
 

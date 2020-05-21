@@ -70,7 +70,7 @@
                     <br>
                     <div class="input-group">
                         <span class="input-group-label">Product Image</span>
-                        <input class="input-group-field" type="file">
+                        <input class="input-group-field" type="file" name="productImage1221">
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
                     </label>
                     <input type="hidden" name="token" value="{{ \App\Classes\CSRFToken::_token() }}">
                     <button class="button alert" type="reset">Reset</button>
-                    <input class="button success" type="Submit" value="Save">
+                    <input class="button success" type="Submit" value="Save Product">
                 </div>
             </div>
         </form>
