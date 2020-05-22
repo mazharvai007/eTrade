@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/c25edb64ad61f940b82a04de79f4659b93e569b3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/SubCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/SubCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/admin_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/admin_routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,18 +104,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin/products" />
-      <recent name="$PROJECT_DIR$/app/models" />
-      <recent name="$PROJECT_DIR$/app/controllers/admin" />
-      <recent name="$PROJECT_DIR$/resources/assets/js/admin" />
-      <recent name="$PROJECT_DIR$/app/routing" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/classes" />
       <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/controllers/admin" />
       <recent name="$PROJECT_DIR$/resources/assets/sass/admin" />
+      <recent name="$PROJECT_DIR$/app/routing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/products" />
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/controllers/admin" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/admin" />
       <recent name="$PROJECT_DIR$/app/routing" />
     </key>
   </component>
@@ -163,7 +164,7 @@
       <workItem from="1589552608186" duration="1404000" />
       <workItem from="1590071764145" duration="3119000" />
       <workItem from="1590124895172" duration="6612000" />
-      <workItem from="1590153837510" duration="3704000" />
+      <workItem from="1590153837510" duration="6790000" />
     </task>
     <servers />
   </component>

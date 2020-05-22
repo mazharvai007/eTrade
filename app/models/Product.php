@@ -33,7 +33,7 @@ class Product extends Model
      * Make relation with product belongs to
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function subcategory()
+    public function subCategory()
     {
         return $this->belongsTo(SubCategory::class);
     }
