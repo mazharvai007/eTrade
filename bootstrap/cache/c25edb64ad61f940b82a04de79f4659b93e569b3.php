@@ -81,11 +81,28 @@
                     </label>
                     <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
                     <input type="hidden" name="product_id" value="<?php echo e($product->id); ?>">
-                    <input class="button success" type="Submit" value="Update Product">
+                    <input class="button success float-right" type="Submit" value="Update Product">
+
+
                 </div>
             </div>
         </form>
 
+        <!-- Delete Product -->
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12 medium-6 large-6">
+                <table data-form="deleteForm">
+                    <tr style="border: 1px solid #ffffff !important;">
+                        <td style="border: 1px solid #ffffff !important;padding: 0">
+                            <form action="/admin/product/<?php echo e($product['id']); ?>/delete" method="post" class="delete-item">
+                                <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
+                                <button type="submit" class="button alert">Delete Product</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
     <!-- End Product Display -->
 

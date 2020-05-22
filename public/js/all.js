@@ -191,6 +191,7 @@
                 break;
             case 'adminProduct':
                 eTrade.admin.changeEvent();
+                eTrade.admin.delete();
                 break;
             case 'adminCategories':
                 eTrade.admin.update();
