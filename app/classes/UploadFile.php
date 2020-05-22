@@ -100,7 +100,7 @@ class UploadFile
      * @return $this|null
      */
 
-    public function move($tmp_path, $folder, $file, $new_filename)
+    public function move($tmp_path, $folder, $file, $new_filename = '')
     {
         // Static obj
         $fileObj = new static();

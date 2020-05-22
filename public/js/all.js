@@ -72,6 +72,36 @@
 (function () {
     'use strict';
 
+    eTrade.admin.changeEvent = function () {
+        $('#product-category').on('change', function () {
+            var category_id = $('#product-category' + ' option:selected').val();
+            $('#product-subcategory').html('Select Subcategory');
+
+            $.ajax({
+                type: 'GET',
+                url: '/admin/category/' + category_id + '/selected',
+                data: {
+                    category_id: category_id
+                },
+                success: function (response) {
+                    var subcategories = jQuery.parseJSON(response);
+
+                    if (subcategories.length) {
+                        $.each(subcategories, function (key, value) {
+                            $('#product-subcategory').append('<option value="' + value.id + '">' + value.name + '</option>');
+                        });
+                    } else {
+                        $('#product-subcategory').append('<option value="">No record found!</option>');
+                    }
+
+                }
+            });
+        });
+    };
+})();
+(function () {
+    'use strict';
+
     eTrade.admin.update = function () {
         // Update product category
         $(".update-category").on('click', function (e) {
@@ -158,6 +188,10 @@
         // Switch Pages
         switch ($('body').data('page-id')) {
             case 'home':
+                break;
+            case 'adminProduct':
+                eTrade.admin.changeEvent();
+                eTrade.admin.delete();
                 break;
             case 'adminCategories':
                 eTrade.admin.update();

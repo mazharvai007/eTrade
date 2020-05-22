@@ -64,7 +64,7 @@ class ProductCategoryController extends BaseController
                 $rules = [
                     'name' => [
                         'required' => true,
-                        'minLength' => 6,
+                        'minLength' => 4,
                         'string' => true,
                         'unique' => 'categories'
                     ]

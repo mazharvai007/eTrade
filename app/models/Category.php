@@ -19,6 +19,24 @@ class Category extends Model
     protected $dates = ['deleted_at'];
 
     /**
+     * Make relation with category
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
+
+    /**
+     * Make relation with category
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function subCategories()
+    {
+        return $this->hasMany(SubCategory::class);
+    }
+
+    /**
      * @param $data
      * @return array
      * @throws \Exception
