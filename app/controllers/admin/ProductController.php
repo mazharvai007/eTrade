@@ -12,6 +12,7 @@ use App\Classes\UploadFile;
 use App\Classes\ValidateRequest;
 use App\Controllers\BaseController;
 use App\Models\Category;
+use App\Models\Product;
 use App\Models\SubCategory;
 use phpDocumentor\Reflection\Types\Compound;
 
@@ -85,7 +86,7 @@ class ProductController extends BaseController
                 $validate->abide($_POST, $rules);
 
                 $file = Request::get('file');
-                $filename = $file->productImage->name;
+                isset($file->productImage->name) ? $filename = $file->productImage->name : $filename = '';
 
                 // Check if file field is empty or not
                 if (empty($filename)) {
@@ -98,29 +99,33 @@ class ProductController extends BaseController
                     $response = $validate->getErrorMessages();
                     count($file_error) ? $errors = array_merge($response, $file_error) : $errors = $response;
 
-                    return view('admin/products/categories', [
+                    return view('admin/products/create', [
                         'categories' => $this->categories,
                         'errors' => $response
                     ]);
                 }
 
+                $ds = DIRECTORY_SEPARATOR;
+                $temp_file = $file->productImage->tmp_name;
+                $image_path = UploadFile::move($temp_file, "images{$ds}uploads{$ds}products", $filename)->path();
+
                 // Process form data
-                Category::create([
+                Product::create([
                     'name' => $request->name,
-                    'slug' => slug($request->name)
+                    'description' => $request->description,
+                    'price' => $request->price,
+                    'category_id' => $request->category,
+                    'sub_category_id' => $request->subcategory,
+                    'image_path' => $image_path,
+                    'quantity' => $request->quantity
                 ]);
 
-                $total = Category::all()->count();
-                $subtotal = SubCategory::all()->count();
-                list($this->categories, $this->links) = paginate(6, $total, $this->table_name, new Category());
-                list($this->subcategories, $this->subcategories_links) = paginate(3, $subtotal, 'sub_categories', new SubCategory());
+                // The form will be refreshed after creating product successfully
+                Request::refresh();
 
-                return view('admin/products/categories', [
+                return view('admin/products/create', [
                     'categories' => $this->categories,
-                    'links' => $this->links,
-                    'success' => 'Category Created',
-                    'subcategories' => $this->subcategories,
-                    'subcategories_links' => $this->subcategories_links
+                    'success' => 'Product Created'
                 ]);
             }
 

@@ -191,6 +191,7 @@ class ComposerStaticInit03730b5fef5d20ef14d95bf1ed08dc09
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'App\\Controllers\\IndexController' => __DIR__ . '/../..' . '/app/controllers/IndexController.php',
         'App\\Models\\Category' => __DIR__ . '/../..' . '/app/models/Category.php',
+        'App\\Models\\Product' => __DIR__ . '/../..' . '/app/models/Product.php',
         'App\\Models\\SubCategory' => __DIR__ . '/../..' . '/app/models/SubCategory.php',
         'App\\RouteDispatcher' => __DIR__ . '/../..' . '/app/routing/RouteDispatcher.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',

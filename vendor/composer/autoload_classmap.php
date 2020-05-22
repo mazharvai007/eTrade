@@ -23,6 +23,7 @@ return array(
     'App\\Controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\Controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',
     'App\\Models\\Category' => $baseDir . '/app/models/Category.php',
+    'App\\Models\\Product' => $baseDir . '/app/models/Product.php',
     'App\\Models\\SubCategory' => $baseDir . '/app/models/SubCategory.php',
     'App\\RouteDispatcher' => $baseDir . '/app/routing/RouteDispatcher.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',

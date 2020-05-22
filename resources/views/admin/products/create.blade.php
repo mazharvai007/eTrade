@@ -15,7 +15,7 @@
 
         @include('includes.message')
 
-        <form method="post" action="/admin/product/create">
+        <form method="post" action="/admin/product/create" enctype="multipart/form-data">
             <div class="grid-x grid-margin-x">
                 <div class="cell small-12 medium-6 large-6">
                     <label>Product Name:
@@ -70,7 +70,7 @@
                     <br>
                     <div class="input-group">
                         <span class="input-group-label">Product Image</span>
-                        <input class="input-group-field" type="file" name="productImage1221">
+                        <input class="input-group-field" type="file" name="productImage">
                     </div>
                 </div>
 

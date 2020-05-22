@@ -13,7 +13,7 @@
 
         <?php echo $__env->make('includes.message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-        <form method="post" action="/admin/product/create">
+        <form method="post" action="/admin/product/create" enctype="multipart/form-data">
             <div class="grid-x grid-margin-x">
                 <div class="cell small-12 medium-6 large-6">
                     <label>Product Name:
@@ -81,7 +81,7 @@
                     </label>
                     <input type="hidden" name="token" value="<?php echo e(\App\Classes\CSRFToken::_token()); ?>">
                     <button class="button alert" type="reset">Reset</button>
-                    <input class="button success" type="Submit" value="Save">
+                    <input class="button success" type="Submit" value="Save Product">
                 </div>
             </div>
         </form>
