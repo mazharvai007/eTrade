@@ -38,8 +38,14 @@ class ProductController extends BaseController
 //        list($this->subcategories, $this->subcategories_links) = paginate(3, $subtotal, 'sub_categories', new SubCategory());
     }
 
+    /**
+     * Display Products
+     */
+
     public function show()
     {
+        $product = Product::where('id', 1)->with(['category', 'subCategory'])->first();
+        var_dump($product);exit();
         $products = $this->products;
         $links = $this->links;
 

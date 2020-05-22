@@ -21,6 +21,24 @@ class Product extends Model
     protected $dates = ['deleted_at'];
 
     /**
+     * Make relation with product belongs to
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    /**
+     * Make relation with product belongs to
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function subcategory()
+    {
+        return $this->belongsTo(SubCategory::class);
+    }
+
+    /**
      * @param $data
      * @return array
      * @throws \Exception
