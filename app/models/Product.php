@@ -36,13 +36,13 @@ class Product extends Model
                 'id' => $item->id,
                 'name' => $item->name,
                 'price' => $item->price,
+                'quantity' => $item->quantity,
                 'description' => $item->description,
                 'category_id' => $item->category_id,
-                'category_name' => Category::where('id', $item->category_name)->first()->name,
+                'category_name' => Category::where('id', $item->category_id)->first()->name,
                 'sub_category_id' => $item->sub_category_id,
-                'sub_category_name' => SubCategory::where('id', $item->sub_category_name)->first()->name,
+                'sub_category_name' => SubCategory::where('id', $item->sub_category_id)->first()->name,
                 'image_path' => $item->image_path,
-                'quantity' => $item->quantity,
                 'added' => $added->toFormattedDateString()
             ]);
         }

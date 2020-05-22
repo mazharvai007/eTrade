@@ -19,6 +19,7 @@ use phpDocumentor\Reflection\Types\Compound;
 class ProductController extends BaseController
 {
     public $table_name = 'products';
+    public $products;
     public $categories;
     public $subcategories;
     public $subcategories_links;
@@ -31,15 +32,23 @@ class ProductController extends BaseController
     public function __construct()
     {
         $this->categories = Category::all();
+        $total = Product::all()->count();
 
-//        list($this->categories, $this->links) = paginate(3, $total, $this->table_name, $object);
+        list($this->products, $this->links) = paginate(10, $total, $this->table_name, new Product());
 //        list($this->subcategories, $this->subcategories_links) = paginate(3, $subtotal, 'sub_categories', new SubCategory());
+    }
+
+    public function show()
+    {
+        $products = $this->products;
+        $links = $this->links;
+
+        return view('admin/products/inventory', compact('products', 'links'));
     }
 
     /**
      * Display Category
      */
-
     public function showCreateProductForm()
     {
         $categories = $this->categories;
