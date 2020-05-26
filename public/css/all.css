@@ -6815,7 +6815,6 @@ html, body {
 .site_wrapper {
   min-height: 100%;
   position: relative;
-  top: 100px;
 }
 
 table {
@@ -7018,6 +7017,25 @@ hr {
     width: 100%;
     margin-top: 2.5rem;
   }
+}
+
+.home {
+  padding-top: 6rem;
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .home {
+    padding-top: 4rem;
+  }
+}
+
+.home .hero {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home .hero .hero-slider img {
+  width: 100%;
 }
 
 .slide-in-down.mui-enter {

@@ -40,6 +40,7 @@ elixir(function (mix) {
 
             'js/etrade.js',
             'js/admin/*.js',
+            'js/pages/*.js',
 
             'js/init.js'
 

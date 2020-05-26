@@ -3,6 +3,7 @@
 
     window.eTrade = {
         global: {},
-        admin: {}
+        admin: {},
+        homeSlider: {}
     }
 })();

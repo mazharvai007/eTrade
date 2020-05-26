@@ -4,8 +4,14 @@
 <?php $__env->startSection('content'); ?>
     <div class="grid-container fluid">
         <div class="grid-x grid-margin-x">
-            <div class="cell large-12 medium-12 small-12">
-                <h1>Homepage</h1>
+            <div class="home cell large-12 medium-12 small-12">
+                <section class="hero">
+                    <div class="hero-slider">
+                        <div><img src="/images/sliders/slide_1.jpg" alt="eTrade"></div>
+                        <div><img src="/images/sliders/slide_2.jpg" alt="eTrade"></div>
+                        <div><img src="/images/sliders/slide_3.jpg" alt="eTrade"></div>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
