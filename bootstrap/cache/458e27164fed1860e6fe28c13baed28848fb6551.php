@@ -1,6 +1,6 @@
 <?php $__env->startSection('body'); ?>
     <!-- Navigation -->
-
+    <?php echo $__env->make('includes.nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
     <!-- Site Wrapper -->
     <div class="site_wrapper">

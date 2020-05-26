@@ -2,7 +2,7 @@
 
 @section('body')
     <!-- Navigation -->
-
+    @include('includes.nav')
 
     <!-- Site Wrapper -->
     <div class="site_wrapper">
