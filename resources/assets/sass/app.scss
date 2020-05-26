@@ -5,12 +5,14 @@
 @import "../bower/vendor/foundation-sites/assets/foundation";
 
 // Import nav sass
-@import "admin/nav";
 @import "global";
+@import "admin/nav";
+@import "pages/nav";
 
 // Import motion-ui sass
 @import "../bower/vendor/motion-ui/src/motion-ui";
 
 // Include Motion UI Animation and Transition
-@include motion-ui-transitions
-@include motion-ui-animations
+@include motion-ui-transitions;
+
+@include motion-ui-animations;

@@ -1,0 +1,104 @@
+$menu-background: #1B1920;
+$logo-image-folder: 'images';
+
+.navigation {
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+
+  .toggle {
+    line-height: 3rem;
+    padding: 0 0.5rem 0.3rem 0.5rem;
+    background-color: darken($menu-background, 10%);
+
+    .menu-icon {
+      margin-top: 0.5rem;
+
+      &:focus {
+        outline-style: none;
+      }
+
+      &::after {
+        content: '';
+        width: 1.8rem;
+      }
+
+      .logo {
+        padding-bottom: 0.5rem;
+      }
+    }
+
+    @include breakpoint(small only) {
+      justify-content: space-between;
+    }
+  }
+
+  .logo {
+  //  background-image: url("/#{$logo-image-folder}/logo.png");
+  //  width: 10rem;
+  //  height: auto;
+  //  text-indent: -9999px;
+  //  display: block;
+  //  background-repeat: no-repeat;
+  //  background-size: cover;
+  //  background-position: center center;
+
+    font-size: 2rem;
+    color: #ffffff;
+
+    @include breakpoint(small only) {
+      font-size: 1rem;
+    }
+  }
+
+  .top-bar {
+    background: $menu-background;
+    ul.menu {
+      background-color: $menu-background;
+
+      li {
+        color: #def0fc;
+
+        a {
+          text-decoration: none;
+          color: #def0fc;
+
+          @include breakpoint(medium only) {
+            font-size: 1rem;
+          }
+
+          &:hover {
+            color: #ffffff;
+          }
+
+          &:focus {
+            outline-style: none;
+          }
+        }
+      }
+
+      &.vertical {
+        &.sub {
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+          margin-top: 0.7rem;
+
+          li {
+            border-bottom: 1px dotted #ffffff;
+
+            &:last-of-type {
+              border-bottom: none;
+            }
+          }
+
+          @include breakpoint(small only) {
+            width: 100%;
+            margin-top: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+}
