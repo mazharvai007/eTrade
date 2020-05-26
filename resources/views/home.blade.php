@@ -13,7 +13,22 @@
                         <div><img src="/images/sliders/slide_3.jpg" alt="eTrade"></div>
                     </div>
                 </section>
+
+                <section>
+                    <div id="root">
+                        @{{ message }}
+                    </div>
+                </section>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        new Vue({
+            el: '#root',
+            data: {
+                message: 'This is short intro to VueJs.'
+            }
+        });
+    </script>
 @stop

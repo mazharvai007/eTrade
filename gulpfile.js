@@ -37,6 +37,7 @@ elixir(function (mix) {
 
             // Other dependencies
             bowerPath + '/slick-carousel/slick/slick.min.js',
+            bowerPath + '/axios/dist/axios.min.js',
 
             'js/etrade.js',
             'js/admin/*.js',

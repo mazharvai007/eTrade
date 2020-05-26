@@ -8,6 +8,8 @@
     <title>eTrade - <?php echo $__env->yieldContent('title'); ?></title>
 
     <link rel="stylesheet" href="/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 </head>
 <body data-page-id="<?php echo $__env->yieldContent('data-page-id'); ?>">
 

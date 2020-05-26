@@ -3,6 +3,7 @@
   "dependencies": {
     "foundation-sites": "^6.6.3",
     "motion-ui": "^2.0.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "axios": "^0.19.2"
   }
 }

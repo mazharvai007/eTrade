@@ -12,8 +12,23 @@
                         <div><img src="/images/sliders/slide_3.jpg" alt="eTrade"></div>
                     </div>
                 </section>
+
+                <section>
+                    <div id="root">
+                        {{ message }}
+                    </div>
+                </section>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        new Vue({
+            el: '#root',
+            data: {
+                message: 'This is short intro to VueJs.'
+            }
+        });
+    </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/mazhar/www/practice/php/eTrade/resources/views/home.blade.php ENDPATH**/ ?>
