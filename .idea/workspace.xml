@@ -16,15 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:buildingFrontStore" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/d2102d10796d32c8ee19ea6703dfd18992bc8305.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/d2102d10796d32c8ee19ea6703dfd18992bc8305.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/e3c6147d18bcfc93acf721bfc5253b51b51a1a46.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/e3c6147d18bcfc93acf721bfc5253b51b51a1a46.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +49,8 @@
       <list>
         <option value="package.json" />
         <option value="Sass File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -171,7 +178,9 @@
       <workItem from="1590426836749" duration="1534000" />
       <workItem from="1590463632852" duration="945000" />
       <workItem from="1590470153855" duration="1924000" />
-      <workItem from="1590500587627" duration="9327000" />
+      <workItem from="1590500587627" duration="10212000" />
+      <workItem from="1590593939161" duration="2526000" />
+      <workItem from="1590673491992" duration="1452000" />
     </task>
     <servers />
   </component>
@@ -183,7 +192,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="buildingFrontStore" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -8,6 +8,7 @@
         switch ($('body').data('page-id')) {
             case 'home':
                 eTrade.homeSlider.initCarousel();
+                eTrade.homeSlider.homePageProducts();
                 break;
             case 'adminProduct':
                 eTrade.admin.changeEvent();
