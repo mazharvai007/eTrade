@@ -13,22 +13,33 @@
                         <div><img src="/images/sliders/slide_3.jpg" alt="eTrade"></div>
                     </div>
                 </section>
-
-                <section>
-                    <div id="root">
-                        @{{ message }}
-                    </div>
-                </section>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript">
-        new Vue({
-            el: '#root',
-            data: {
-                message: 'This is short intro to VueJs.'
-            }
-        });
-    </script>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x display-products" id="root">
+            <div class="cell large-12 medium-12 small-12">
+                <h2>Featured Products</h2>
+            </div>
+            <div class="cell large-3 medium-3 small-12" v-for="feature in featured">
+                <a :href="'/product/' + feature.id">
+                    <div class="card" data-equalizer-watch>
+                        <div class="card-section">
+                            <img :src="'/' + feature.image_path" width="100%" height="200">
+                        </div>
+                        <div class="card-section">
+                            <h3 class="product-name">
+                                @{{ feature.name }}
+                            </h3>
+                            <a :href="'/product/' + feature.id" class="button more expanded">See More</a>
+                            <a :href="'/product/' + feature.id" class="button cart expanded">
+                                $@{{ feature.price }} - Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 @stop

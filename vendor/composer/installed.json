@@ -59,21 +59,21 @@
     },
     {
         "name": "doctrine/inflector",
-        "version": "1.4.1",
-        "version_normalized": "1.4.1.0",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/inflector.git",
-            "reference": "4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3"
+            "reference": "889b42b8155f2aa274596b6e0424371b1e3c51bb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/doctrine/inflector/zipball/4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3",
-            "reference": "4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3",
+            "url": "https://api.github.com/repos/doctrine/inflector/zipball/889b42b8155f2aa274596b6e0424371b1e3c51bb",
+            "reference": "889b42b8155f2aa274596b6e0424371b1e3c51bb",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2"
+            "php": "^7.2 || ^8.0"
         },
         "require-dev": {
             "doctrine/coding-standard": "^7.0",
@@ -82,7 +82,7 @@
             "phpstan/phpstan-strict-rules": "^0.11",
             "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
         },
-        "time": "2020-05-09T15:09:09+00:00",
+        "time": "2020-05-25T20:02:40+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -572,17 +572,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.34.2",
-        "version_normalized": "2.34.2.0",
+        "version": "2.35.0",
+        "version_normalized": "2.35.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "3e87404329b8072295ea11d548b47a1eefe5a162"
+            "reference": "4b9bd835261ef23d36397a46a76b496a458305e5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/3e87404329b8072295ea11d548b47a1eefe5a162",
-            "reference": "3e87404329b8072295ea11d548b47a1eefe5a162",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4b9bd835261ef23d36397a46a76b496a458305e5",
+            "reference": "4b9bd835261ef23d36397a46a76b496a458305e5",
             "shasum": ""
         },
         "require": {
@@ -600,7 +600,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-05-19T22:14:16+00:00",
+        "time": "2020-05-24T18:27:52+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -690,17 +690,17 @@
     },
     {
         "name": "phpmailer/phpmailer",
-        "version": "v6.1.5",
-        "version_normalized": "6.1.5.0",
+        "version": "v6.1.6",
+        "version_normalized": "6.1.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPMailer/PHPMailer.git",
-            "reference": "a8bf068f64a580302026e484ee29511f661b2ad3"
+            "reference": "c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a8bf068f64a580302026e484ee29511f661b2ad3",
-            "reference": "a8bf068f64a580302026e484ee29511f661b2ad3",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3",
+            "reference": "c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3",
             "shasum": ""
         },
         "require": {
@@ -721,7 +721,7 @@
             "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
             "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
         },
-        "time": "2020-03-14T14:23:48+00:00",
+        "time": "2020-05-27T12:24:03+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1270,30 +1270,30 @@
     },
     {
         "name": "symfony/translation-contracts",
-        "version": "v2.0.1",
-        "version_normalized": "2.0.1.0",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation-contracts.git",
-            "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed"
+            "reference": "e5ca07c8f817f865f618aa072c2fe8e0e637340e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
-            "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/e5ca07c8f817f865f618aa072c2fe8e0e637340e",
+            "reference": "e5ca07c8f817f865f618aa072c2fe8e0e637340e",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2.5"
+            "php": ">=7.2.5"
         },
         "suggest": {
             "symfony/translation-implementation": ""
         },
-        "time": "2019-11-18T17:27:11+00:00",
+        "time": "2020-05-20T17:43:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.0-dev"
+                "dev-master": "2.1-dev"
             }
         },
         "installation-source": "dist",

@@ -26,12 +26,143 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0476edd-dfa9-4e64-8128-c465ba912419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/translation-contracts/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/d2102d10796d32c8ee19ea6703dfd18992bc8305.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/d2102d10796d32c8ee19ea6703dfd18992bc8305.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Uninflected.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Uninflected.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/FactoryImmutable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/FactoryImmutable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/af.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/af.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_DZ.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_DZ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_KW.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_KW.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_LY.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_LY.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_MA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_MA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_SA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_SA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_TN.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_TN.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/be.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/be.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bm.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/br.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/br.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv_MV.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv_MV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/et.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/et.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ga.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ga.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gd.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gom_Latn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gom_Latn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/jv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/jv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/km.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/km.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ky.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ky.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lb.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ml.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/my.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/my.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ne.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/oc.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/oc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pa.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sd.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/se.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/se.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/si.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/si.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ss.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sw.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ta.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/te.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/te.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tg.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tlh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tlh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzm.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzm_Latn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tzm_Latn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ug.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz_Latn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz_Latn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/yo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/yo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zgh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zgh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_Hans.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_Hans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_Hant.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_Hant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Creator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Creator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Localization.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Localization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Modifiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Modifiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Options.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation-contracts/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation-contracts/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation-contracts/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation-contracts/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +239,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -180,7 +311,7 @@
       <workItem from="1590470153855" duration="1924000" />
       <workItem from="1590500587627" duration="10212000" />
       <workItem from="1590593939161" duration="2526000" />
-      <workItem from="1590673491992" duration="1452000" />
+      <workItem from="1590673491992" duration="5140000" />
     </task>
     <servers />
   </component>
@@ -260,9 +391,9 @@
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
     <state x="275" y="458" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1014@0.27.1920.1014" timestamp="1590414872581" />
-    <state x="549" y="189" key="SettingsEditor" timestamp="1588700620638">
+    <state x="549" y="189" key="SettingsEditor" timestamp="1590677478485">
       <screen x="0" y="27" width="1920" height="1014" />
     </state>
-    <state x="549" y="189" key="SettingsEditor/0.27.1920.1014@0.27.1920.1014" timestamp="1588700620638" />
+    <state x="549" y="189" key="SettingsEditor/0.27.1920.1014@0.27.1920.1014" timestamp="1590677478485" />
   </component>
 </project>
