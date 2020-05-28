@@ -30,7 +30,7 @@
                         </div>
                         <div class="card-section">
                             <h3 class="product-name">
-                                @{{ feature.name }}
+                                @{{ stringLimit(feature.name, 18) }}
                             </h3>
                             <a :href="'/product/' + feature.id" class="button more expanded">See More</a>
                             <a :href="'/product/' + feature.id" class="button cart expanded">

@@ -17,3 +17,38 @@
     }
   }
 }
+
+.display-products {
+  .card {
+    h3.product-name {
+      font-size: 1rem;
+      text-align: center;
+      color: #0a0a0a;
+
+      &:hover {
+        color: #0c3d5d;
+      }
+    }
+
+    .button {
+      border-radius: 0.2rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      &.more {
+        color: #00d6b2;
+        background-color: #ffffff;
+        border: 1px solid #00d6b2;
+      }
+
+      &.cart {
+        color: #ffffff;
+        background-color: #ff0000;
+        border: 1px solid #ff0000;
+
+        &:hover {
+          background-color: lighten(#bf0000, 7%);
+        }
+      }
+    }
+  }
+}
