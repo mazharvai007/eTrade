@@ -40,6 +40,28 @@
                     </div>
                 </a>
             </div>
+
+            <div class="cell large-12 medium-12 small-12">
+                <h2>Products</h2>
+            </div>
+            <div class="cell large-3 medium-3 small-12" v-for="product in products">
+                <a :href="'/product/' + product.id">
+                    <div class="card" data-equalizer-watch>
+                        <div class="card-section">
+                            <img :src="'/' + product.image_path" width="100%" height="200">
+                        </div>
+                        <div class="card-section">
+                            <h3 class="product-name">
+                                @{{ stringLimit(product.name, 18) }}
+                            </h3>
+                            <a :href="'/product/' + product.id" class="button more expanded">See More</a>
+                            <a :href="'/product/' + product.id" class="button cart expanded">
+                                $@{{ product.price }} - Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 @stop
